@@ -1,1 +1,1293 @@
 /* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: sans-serif;background: #fff; }
+
+
+.container.clspagecontent {
+    min-height: calc(100vh - 8.5em);
+    padding: 0;
+    display: flow-root;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: sans-serif; }
+
+.header {
+    
+    float: left;
+    width: 100%;
+    height: 78px;
+}
+
+.navbar-fixed-top {
+    float: left;
+    width: 100%;
+    position: relative;
+    background: none;
+    border: none;
+}
+.navbar-brand {
+    float: left;
+    height: auto;
+    padding: 5px 15px;
+}
+.logo img{
+    width: 120px;
+    float: left;
+    margin-top: 15px;
+}
+
+.whatsappImg{
+
+    width: 50px;
+
+}
+
+
+
+.nav.navbar-loc{
+    margin-top:15x; 
+}
+
+ul.nav.navbar-loc  a {
+    
+    font-size: 15px;
+    color: #002856;
+    line-height: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+
+.navbar-loc  a:hover {
+    color: #e16b01 !important;
+}
+
+ul.nav.navbar-loc {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+ul.nav.navbar-nav {
+    margin-top: 20px;
+    margin-right:80px ;
+}
+ul.nav.navbar-nav li a {
+    font-size: 15px;
+    color: #002856;
+    line-height: 10px;
+    font-weight: bold;
+    margin-right: 30px;;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.navbar-nav li a:hover {
+    color: #e16b01 !important;
+}
+ul.nav.navbar-nav {
+    margin-top: 15px;
+}
+/* .top-header,.banner-slider{
+    float: left;
+    width: 100%;
+} */
+
+
+.carousel{
+    margin-left: 00px;
+    width: auto;
+}
+
+
+.footer{
+    float: left;
+    width: 100%;
+    padding: 25px 0px;
+    background: #052465;
+}
+.footer h4 {
+    background: #ff316d;
+    line-height: 32px;
+    padding: 0px 15px;
+    font-weight: bold;
+    color: #fff;
+    float: left;
+}
+
+.footer h3 {
+    background: #ff316d;
+    line-height: 32px;
+    padding: 0px 15px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    float: left;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li a,.footer p {
+    color: #fff;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.footer b {
+    color: #fff;
+    margin-top: 25px;
+    float: left;
+    width: 100%;
+}
+/* .footer .container {
+    border-bottom: 2px solid #fff;
+} */
+.footer-second-border {
+    margin: 15px auto;
+    height: 2px;
+    background: #ff316d;
+    width: 32%;
+}
+.footer li a:hover{
+    color: #fc2e71 !important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.meals-section {
+    padding: 15px 0px;
+    float: left;
+    width: 100%;
+    
+}
+
+.meals-list-div {
+    float: left;
+    width: 100%;
+    margin: 15px 0px;
+   
+}
+ul{
+    list-style: none;
+    padding: 0;
+    
+}
+.meals-img {
+    text-align: center;
+}
+.meals-list-li {
+    float: left;
+    width: 100%;
+    box-shadow: 0px 0px 4px #00000057;
+    padding: 25px 15px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+.meals-content h4 {
+    color: #0255a3;
+    font-weight: bold;
+    font-size: 18px;
+}
+.meals-content p {
+    color: #555;
+    font-weight: 600;
+}
+.meals-list-li:hover {
+    background: #002856;
+}
+.meals-list-li:hover .meals-content h4{
+    color: #fc2e71 !important;
+}
+.meals-list-li:hover .meals-content p{
+    color: #fff !important;
+}
+.meals-img {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+
+.container wrapper{
+    display: flexbox;
+}
+
+
+
+.packages {
+    background: #f9f8fe;
+    padding: 30px 0px;
+    float: left;
+    width: 100%;
+    cursor: pointer;
+}
+.packages h3 {
+    color: #0255a3;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+.packages p {
+    color: #9b9b9b;
+    float: none;
+    width: 56%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.second-row{
+    margin-top: 65px;
+}.packages-readmore-div{
+    
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 320px;
+        
+}
+
+.price-text {
+    color: rgba(0, 0, 0, 0.34);
+    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    text-decoration: line-through;
+    margin-right: 100px;
+}
+.price-offertext{
+    
+    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    margin-right: 100px;
+}
+
+.meals-img{
+
+     cursor: pointer;
+}
+.description{
+
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+
+    
+}
+
+.location{
+   
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        padding: 5px 0px;
+    
+}
+.cityLevel {
+    padding: 5px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.city {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(53, 52, 52);
+}
+.cityName{
+    
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+   
+}
+.arrowinng{
+    transform: rotate(0deg);
+}
+/* .arrowinng{
+    transform: rotate(180deg);
+} */
+
+.cityWrapper{
+    padding: 5px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.areaName{
+  
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        background: none;
+        border: none;
+        padding-bottom: 5px;
+    }
+
+
+    .card{
+        transition: all 0.3s;
+    }
+
+    .card:hover{
+        transform: scale(1.05);
+    }
+
+
+
+
+    .dialogBox1{
+        margin-top: 50px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        border-radius: 11px;
+        z-index: 5;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgb(0 0 0 / 22%) 0px 13px 24px 0px;
+        animation: 0.3s ease 0s 1 normal none running animation-ngigez;
+    }
+
+    .dialogTitle{
+        padding: unset;
+        position: relative;
+    
+    }
+
+
+    .dialogBody {
+        position:static;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        width: 400px;
+        box-shadow: none;
+        border-radius: 16px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .phoneBody {
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    .loginContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loginLogo{
+        width: 32%;
+        align-self: center;
+    }
+
+    .phoneNum{
+        margin-top: 60px;
+    }
+
+    .inputContainer{
+        border-bottom: 2px solid rgb(151, 151, 151);
+        width: fit-content;
+        margin: 0px auto;
+    }
+
+    .ConutryCodeBox {
+        display: inline-block;
+        position: relative;
+    }
+    .countryCode {
+        color: rgba(0, 0, 0, 0.85);
+        font-size: 18px;
+        font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+        letter-spacing: 0px;
+    }
+    .inputNumber{
+        width: 202px;
+        border: none;
+        text-align: left;
+        background-color: transparent;
+        outline: none;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+        letter-spacing: 5px;
+        padding-left: 20px;
+    }
+
+    .actionContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .continueButton {
+        color: rgb(40 41 151);
+        box-shadow: none;
+        border: 0px;
+        width: 69%;
+        height: 50px;
+        border-radius: 31px;
+        font-size: 18px;
+        background-image: linear-gradient rgb(40 41 151), rgb(76 69 135);
+    }
+
+    .termCondition{
+
+        
+            color: rgb(102, 102, 102);
+            font-size: 12px;
+            font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+            letter-spacing: 0px;
+            width: 69%;
+            margin: 20px auto;
+            text-align: left;
+       
+
+    }
+
+    .termConditionText {
+        display: list-item;
+        list-style-type: disc;
+        list-style-position: outside;
+    }
+
+    .termConditionText a{
+        color: #fc2e71;
+    }
+    .areaIcon{
+
+        width: 30px;
+
+    }
+
+
+
+
+    
+.aboutus {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 30px 0px;
+}
+img.about-right-img {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 230px;
+}
+img.about-left-img{
+    position: absolute;
+    left: 0;
+    bottom: -72px;
+    width: 230px;
+}
+img.about-right-buttom-img {
+    position: absolute;
+    right: 0;
+    bottom: -72px;
+    width: 70px;
+}
+.about-right h3 {
+    color: #555555;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.about-right h4 {
+    color: #0255a3;
+    font-size: 35px;
+    font-weight: 500;
+}
+.about-right p {
+    color: #b3b3b3;
+    float: left;
+    width: 80%;
+    line-height: 24px;
+}
+img.about-center-img {
+    width: 390px;
+    margin-right: 130px;
+}
+
+
+.packDuration{
+    display: flex;
+   
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.packPrice {
+    width: 120px;
+    height: 120px;
+}
+.strikedOffText{
+    text-decoration: line-through;
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+    opacity: 0.74;
+}
+
+.packPrice {
+    display: flex;
+    width: 140px;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    background-color: rgb(247, 216, 234);
+    border-radius: 5px;
+    margin-right: 20px;
+    z-index: 5;
+    flex-direction: column;
+}
+
+.mealDurationText {
+    font-size: 16px;
+}
+
+.packTypeTextContainer {
+    
+    display: flex;
+    border: 1px solid rgb(239,239,239);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.pack {
+
+    font-size: 14px;
+}
+
+.pack {
+    padding: 7px 5px;
+    font-size: 16px;
+    display: flex;
+    flex-basis: 50%;
+  
+    justify-content: center;
+    background-color: rgb(247, 216, 234);
+    color: rgb(236, 19, 119);
+}
+
+.packVeg{
+    padding: 7px 15px;
+    font-size: 16px;
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+.packInfoContainer{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 23px 30px;
+    padding-left: 40px;
+    box-shadow: 1px 1px 12px 0px #00000017;
+    border-radius: 4px;
+    position: relative;
+    left: -35px;
+    flex: 1;
+    margin-right: -30px;
+    font-family: BrandonTextWeb-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+.packPlanContainer {
+   
+    display: flex;
+    border: 1px solid rgb(239,239,239);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.switch-toggle {
+    width: 15px;
+    height: 15px;
+    left: 2px;
+    top: 2px;
+    border-radius: 12px;
+    background-color: #e8e8e8;
+    position: relative;
+    transition: left .2s ease-in-out;
+}
+
+.switch {
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+}
+
+.switchText{
+    margin-left: 5px;
+    font-family: BrandonTextWeb-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    transform: translateY(1px);
+}
+
+.productActionButton{
+
+    height: 40px; 
+    
+    display: flex; 
+    border-radius: 5px;
+     margin-left: 10px; justify-content: center; 
+     align-items: center; 
+     padding: 1rem 1.5rem;
+      min-width: 30%; 
+      background-image:
+       linear-gradient(rgb(5, 36, 101), rgb(5, 36, 101));
+        font-size: 16px; color: rgb(255, 255, 255);
+        width: 50px;
+
+
+
+}
+
+.productActionButton .actionButton {
+    color: #fff;
+    cursor: pointer;
+    font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+.productActionButton .actionButton .normalButton {
+    box-shadow: none;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.separator {
+    margin: 7px 0px;
+    background: rgb(184, 184, 184);
+    height: 2px;
+    opacity: 0.4;
+}
+.widgetSection{
+    display: flex;
+}
+.widgetItemContainer{
+    width: 100%;
+}
+.TNCWidgetWrapper {
+    padding: 10px 0px;
+}
+
+.subscriptionBottomContainer {
+    width: 100%;
+    padding-top: 20px;
+    max-width: 630px;
+
+    margin-bottom: 00px;
+}
+.tabsList{
+    
+        padding-left: 0;
+        font-family: BrandonTextWeb-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+        font-size: 18px;
+        list-style: none;
+        
+        
+        display: flex;
+        border-bottom: none;
+        margin: 0;
+        overflow: auto;
+    
+}
+
+.tabListItem {
+    list-style: none;
+    cursor: pointer;
+    margin-right: 43px;
+    font-size: 16px;
+    color: rgb(163, 163, 163);
+    padding: 10px 5px;
+}
+.tabContent {
+    padding-top: 13px;
+}
+
+.tabsHeader{
+    width: 100%;
+    padding-top: 20px;
+    max-width: 630px;
+}
+.upcomingMealsText{
+
+    color: #b3b3b3;
+    float: left;
+    width: 80%;
+    line-height: 24px;
+
+}
+.tabContent{
+    
+        padding-top: 13px;
+    
+}
+.productListWidgetContainer{
+    width: 100%;
+}
+
+.productListWidget{
+    border-bottom: 1px solid rgb(239, 239, 239);
+    width: 100%;
+}
+.imageTabContainer {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 400px; */
+}
+.imageTabList {
+    display: flex;
+    overflow-x: auto;
+    cursor: pointer;
+}
+.imageTab {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.foodImage{
+    
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 4px solid transparent;
+    padding: 2px;
+}
+
+
+.foodImage{
+    transition: all 0.3s;
+}
+.foodImage:hover{
+    transform: scale(1.05);
+}
+
+
+.dayText{
+  
+        align-self: center;
+        margin-right: 20px;
+        margin-top: 10px;
+        font-size: 16px;
+        font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+        color: rgb(127, 129, 134);
+        text-transform: uppercase;
+    
+}
+.actionRowWrapper {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 5px 0px 0px;
+}
+.productSmallCell {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0 20px;
+    font-size: 16px;
+}
+
+.productSmallCell img {
+    height: 40px;
+    width: 40px;
+    align-self: flex-start;
+}
+.actionTwoItemRowStyles {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px 0px 0px;
+    width: 90%;
+}
+.infoCell {
+    display: flex;
+    width: 50%;
+}
+
+.productInfoCell{
+    
+    object-fit: contain;
+    border-radius: 9px;
+     background-image: linear-gradient(281deg, rgb(145, 216, 255), rgb(124, 255, 214));
+    align-items: center;
+    padding: 17px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 100%;
+    flex-direction: column;
+
+    
+}
+
+.productInfoCell .imgContainer {
+    margin-bottom: 10px;
+}
+
+.productInfoCell .textContainer {
+    font-size: 16px;
+    line-height: 1.13;
+    color: #262626;
+    flex: 1;
+    text-align: center;
+}
+
+.productLargeCellContainer {
+
+    display: flex;
+    flex-direction: column;
+}
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerContainer{
+
+    display: flex;
+}
+
+.titleText {
+    font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.71;
+    max-height: 3.42em;
+    color: #242424;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8px !important;
+}
+
+.subTitleText {
+    font-size: 14px;
+    color: #25282E;
+    letter-spacing: -.05px;
+    margin-bottom: 7px;
+}
+.nutritionWidgetWrapper {
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: BrandonTextWeb-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+.nutritionTitle {
+    font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 24px;
+    line-height: 1.45;
+    text-align: left;
+    color: inherit;
+    margin-bottom: 10px;
+}
+.nutritionSubtitle {
+    font-size: 16px;
+    font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    margin-bottom: 10px;
+}
+.nutritionBarContainer{
+    
+    width: 70%;
+    margin-bottom: 15px;
+}
+.wrapperContainerDiv {
+    z-index: 10;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.wrapperDiv{
+    z-index: 1;
+    height: 10px;
+    background-color: #4fc6ff;
+    width: 24.264705882352942%;
+}
+
+.wrapperDiv1 {
+    z-index: 1;
+    height: 10px;
+    background-color: #ffa522;
+    width: 31.61764705882353%;
+}
+.wrapperDiv2{
+    z-index: 1;
+    height: 10px;
+    background-color: #f46da0;
+    width: 35.294117647058826%;
+}
+.wrapperDiv3 {
+    z-index: 1;
+    height: 10px;
+    background-color: #916cae;
+    width: 8.823529411764707%;
+}
+
+.nutritionInfoWrapper {
+ 
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.nutritionInfoContainer {
+
+    display: flex;
+    align-items: baseline;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.nutritionIcon {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #4fc6ff;
+    margin-right: 10px;
+}
+.NutritionType {
+    margin-right: 15px;
+    width: 25%;
+} 
+.nutritionQuantity {
+    font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    margin-left: 20px;
+}
+
+.imgContainer{
+    transition: all 0.3s;
+}
+
+.imgContainer:hover{
+    transform: scale(1.05);
+}
+
+
+
+.pImg{
+    transition: all 0.3s;
+}
+
+.pImg:hover{
+    transform: scale(1.15);
+}
+
+.eatLocationSelectionStyle {
+    padding: 25px;
+    height: 400px;
+}
+
+.eatLocationSelectionStyle .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eatLocationSelectionStyle .headerContainer .selectLocationHeader {
+    font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 22px;
+}
+
+.eatLocationSelectionStyle .searchContainer {
+    margin-top: 15px;
+}
+
+.locationSearchInputStyle {
+    position: relative;
+}
+
+.locationSearchInputStyle .searchIcon {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    height: 12px;
+    width: 12px;
+}
+
+.locationSearchInputStyle .searchInput {
+    width: 100%;
+    outline: 0px;
+    font-size: 16px;
+    border-width: 0px 0px 1px;
+    border-color: rgb(177, 177, 177);
+    padding-left: 20px;
+}
+.dialogBox {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    z-index: 5;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 50%) 0px 5px 15px;
+    width: 585px;
+}
+
+
+.locationSearchInputStyle .autocompleteDropdownContainer {
+    margin-top: 50px;
+    position: absolute;
+    background: white;
+    z-index: 100;
+}
+.eatLocationSelectionStyle .locateMe {
+    margin-top: 10px;
+}
+
+.eatLocationSelectionStyle .locateMe .pickLocation {
+    margin-left: 6px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(255, 49, 109);
+    vertical-align: middle;
+}
+.profileDropdownSelector{
+    position: absolute;
+}
+.toolTipWrapper {
+    position: relative;
+    display: inline-block;
+}
+.toolTipContainer {
+    visibility: unset;
+    position: absolute;
+    padding: 3px;
+    background: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    z-index: 1007;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0) 0px 0px 30px -16px;
+    left: -285px;
+    top: 20px;
+    width: 400px;
+}
+.cartHeader {
+    padding: 1rem 0px;
+    margin: 0px auto;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.25);
+}
+.mobileCartWrapper {
+    display: flex;
+}
+.yourCartDiv {
+    font-size: 18px;
+    font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    text-align: left;
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(37, 40, 46);
+}
+.cartTab {
+    display: flex;
+    justify-content: center;
+}
+.emptyCardDiv {
+    position: absolute;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    width: 400px;
+    box-shadow: rgb(100 100 100 / 60%) -2px 5px 10px 2px;
+}
+.messageOneDiv {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(236, 19, 119);
+    padding-bottom: 20px;
+}
+.messageTwoDiv {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(107, 107, 107);
+    padding-bottom: 40px;
+}
+
+.containerWrapper{
+    width: 944px;
+}
+
+.containerDiv {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    min-height: 100vh;
+}
+.leftPartDiv {
+    width: 60%;
+    margin-left: 60px;
+}
+.imageContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+   
+    
+}
+.imageElement {
+    width: 92%;
+     margin-top: 30px;
+    background: transparent;
+    animation: 0.5s ease 0s 1 normal none running animation-1ij7hjp;
+}
+.rightPartDiv {
+    flex: 1 1 0%;
+}
+.containerWithOverflowY {
+    overflow: hidden auto;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.packSummaryWidget {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    border-bottom: 0.5px solid #e0dcdc;
+    padding: 10px 0;
+}
+.productHeaderWidgetContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: BrandonTextWeb-Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+.topContainerDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleText {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    flex: 7 1 0%;
+    margin-top: 6px;
+}
+.bottomContainerDiv {
+    opacity: 0.9;
+    font-family: BrandonTextWeb-Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 3;
+    text-align: left;
+    color: rgb(37, 40, 46);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.optionsContainer {
+ 
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: unset;
+}
+
+.packDurationWrapper {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.widgetTitle {
+    font-size: 22px;
+    margin: 5px 0px;
+    color: rgb(37, 40, 46);
+    font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
+}
+
+.tncDescriptionSection {
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    line-height: 1.5;
+    font-size: 16px;
+    display: flex;
+    margin-bottom: 5px;
+}
+.offerTitleWrapper {
+    display: flex;
+    width: 100%;
+}
+.OfferImageWrapper {
+    margin-right: 12px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 2px;
+}
+.offerHeader {
+    display: flex;
+    align-items: center;
+}
+.OfferImage {
+    margin-right: 5px;
+    align-self: flex-start;
+    margin-top: 8px;
+    width: 14px;
+    height: 16px;
+}
+
+.tnCTextItem {
+    color: rgb(255, 50, 120);
+    font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.iHeader {
+    width: 100%;
+}
+.headerSubtitle {
+    font-size: 16px;
+    color: rgb(136, 142, 158);
+    padding: 5px 0px 10px;
+    line-height: 25px;
+    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.emptyBoxImg{
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
