@@ -1,3 +1,4 @@
+import { HeaderComponent } from './Component/header/header.component';
 import { HomeComponent } from './Component/home/home.component';
 
 import { CartComponent } from './Component/cart/cart.component';
@@ -6,6 +7,7 @@ import { LoginComponent } from './Component/login/login.component';
 import { LayoutComponent } from './Component/layout/layout.component';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FooterComponent } from './Component/footer/footer.component';
 
 const routes: Routes = [
 
